@@ -1,45 +1,46 @@
 const config = {
-  title: "Naresh Khatri | Full-Stack Developer",
+  title: "Juan Andrés Rojas | Software Engineer",
   description: {
-    long: "Explore the portfolio of Naresh, a full-stack developer and creative technologist specializing in interactive web experiences, 3D animations, and innovative projects. Discover my latest work, including Coding Ducks, The Booking Desk, Ghostchat, and more. Let's build something amazing together!",
+    long: "Explore the portfolio of Juan Andrés Rojas, a software engineer specializing in backend development, database optimization, and AI-driven systems. Discover my latest work, including HotelBook Pro, predictive analysis projects, and more. Let's build something amazing together!",
     short:
-      "Discover the portfolio of Naresh, a full-stack developer creating interactive web experiences and innovative projects.",
+      "Discover the portfolio of Juan Andrés Rojas, a software engineer creating robust backend systems and intelligent applications.",
   },
   keywords: [
-    "Naresh",
+    "Juan Andrés Rojas",
     "portfolio",
-    "full-stack developer",
-    "creative technologist",
+    "software engineer",
+    "backend developer",
+    "Python",
+    "Django",
+    "Flask",
+    "PostgreSQL",
     "web development",
-    "3D animations",
-    "interactive websites",
-    "Coding Ducks",
-    "The Booking Desk",
-    "Ghostchat",
-    "web design",
+    "AI-driven systems",
+    "hotel management",
+    "predictive analysis",
     "GSAP",
     "React",
     "Next.js",
     "Spline",
     "Framer Motion",
   ],
-  author: "Naresh Khatri",
-  email: "naresh.khatri2345@gmail.com",
-  site: "https://nareshkhatri.site",
+  author: "Juan Andrés Rojas",
+  email: "juan.rojas7@utp.edu.co",
+  site: "https://portfolio-rojas-09.vercel.app",
 
   // for github stars button
-  githubUsername: "naresh-khatri",
+  githubUsername: "Rojas-09",
   githubRepo: "3d-portfolio",
 
   get ogImg() {
     return this.site + "/assets/seo/og-image.png";
   },
   social: {
-    twitter: "https://x.com/nothotchaddi",
-    linkedin: "https://www.linkedin.com/in/naresh-khatri/",
-    instagram: "https://www.instagram.com/hotchaddi",
-    facebook: "https://www.facebook.com/HotChaddi/",
-    github: "https://github.com/Naresh-Khatri",
+    twitter: "https://x.com/JuanRoj70467071",
+    linkedin: "https://www.linkedin.com/in/juan-andres-rojas-saavedra/",
+    instagram: "https://www.instagram.com/andressaavedra09/",
+    facebook: "",
+    github: "https://github.com/Rojas-09",
   },
 };
 export { config };

@@ -258,15 +258,15 @@ export type Experience = {
 export const EXPERIENCE: Experience[] = [
   {
     id: 1,
-    startDate: "Dec 2024",
+    startDate: "2024",
     endDate: "Present",
-    title: "Full Stack Developer",
-    company: "OmniNexus Sdn Bhd",
+    title: "Software Development Student",
+    company: "Universidad Tecnológica de Pereira (UTP)",
     description: [
-      "Built a custom image editor from scratch, cutting $4.8k/year in SaaS costs.",
-      "Architected async job queues processing 1k+ AI tasks daily with bulletproof reliability.",
-      "Optimized media delivery pipeline, slashing asset load times by 40%.",
-      "Shipped high-impact features end-to-end from requirements to production.",
+      "Tecnología en Desarrollo de Software, enfocado en backend y optimización de sistemas.",
+      "Reconocido como mejor aprendiz de mi cohorte durante la formación en el SENA.",
+      "Desarrollando un sistema de gestión con agentes inteligentes usando MCP y RAG.",
+      "Implementando arquitecturas con PostgreSQL, Docker y Python.",
     ],
     skills: [
       SkillNames.NEXTJS,
@@ -281,15 +281,15 @@ export const EXPERIENCE: Experience[] = [
   },
   {
     id: 2,
-    startDate: "Apr 2022",
-    endDate: "Dec 2024",
-    title: "Freelance Full Stack Developer",
-    company: "Self-employed",
+    startDate: "2023",
+    endDate: "Present",
+    title: "Backend Developer",
+    company: "Proyectos Académicos",
     description: [
-      "Transformed chaotic Excel sheets into polished internal tools for various clients.",
-      "Shipped dashboards and custom CMS platforms tailored to each client's workflow.",
-      "Automated repetitive processes, improving efficiency and reducing human error.",
-      "Focused on clean, maintainable code and interfaces that users actually enjoy.",
+      "Diseñé e implementé un sistema completo de gestión hotelera con Flask, Vue 3 y PostgreSQL.",
+      "Desarrollé modelos predictivos usando álgebra lineal y SVD para pronóstico de demanda.",
+      "Construí una biblioteca digital en Java con arquitectura MVC y persistencia de datos.",
+      "Implementé autenticación JWT y sistemas de facturación con generación de PDF.",
     ],
     skills: [
       SkillNames.REACT,
